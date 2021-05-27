@@ -2,6 +2,6 @@
 
 print("Rock, Paper, Scissors, Shoot!")
 
-print("Testing")
+user_choice = input("Please choose one of 'rock' , 'paper', 'scissors': ")
 
-print(10, 89, "Go Knicks")
+print("USER CHOICE: ",user_choice)
