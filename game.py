@@ -2,13 +2,14 @@
 
 import random
 import os
-# from dotenv import load_dotenv
+import dotenv
 
-#load_dotenv()
+dotenv.load_dotenv()
 
-# player_name = os.getenv(user)
+player_name = os.getenv("user")
 
-# print (player_name)
+print ("Welcome",player_name,"to Rock, Paper, Scissors!")
+
 print("-----------------------------")
 print("Rock, Paper, Scissors, Shoot!")
 print("-----------------------------")
@@ -56,7 +57,7 @@ elif user_choice == "scissors":
     if computer_choice == "rock":
         print (user_choice, "<", computer_choice, "YOU LOSE! :(")
 else:
-        print ("ERROR, YOU SCREWED UP IDIOT!")      
+        print ("ERROR")      
 
 
 
