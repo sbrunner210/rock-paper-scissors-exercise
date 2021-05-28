@@ -4,8 +4,10 @@ import random
 import os
 import dotenv
 
+# Identifying that there is a .env file.
 dotenv.load_dotenv()
 
+# Pulling the information from the .env file.
 player_name = os.getenv("user")
 
 print ("Welcome",player_name,"to Rock, Paper, Scissors!")
